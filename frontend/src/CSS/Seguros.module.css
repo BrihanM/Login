@@ -1,0 +1,73 @@
+.segurosPage {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff00;
+    margin-left: 550px;
+  }
+  
+  .segurosContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .segurosTitle {
+    font-size: 32px;
+    color: #030222;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .segurosTable {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .segurosTableHeader {
+    background-color: #d74849;
+    color: white;
+  }
+  
+  .segurosTableHeader th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .segurosTableBody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .segurosTableBody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .segurosTableBody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .segurosTableBody tr:hover {
+    background-color: #f0f0f0;
+  }
+
+  
+  .segurosNav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .segurosNavLink {
+    color: #d74444;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .segurosNavLink:hover {
+    text-decoration: underline;
+  }

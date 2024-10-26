@@ -1,0 +1,99 @@
+.menu-admin-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff00;
+    margin-left: 0px;
+  }
+  
+  .menu-admin-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .menu-admin-title {
+    font-size: 32px;
+    color: #030222;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menu-admin-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-admin-section-title {
+    font-size: 24px;
+    color: #030222;
+    margin-bottom: 20px;
+  }
+  
+  .menu-admin-add-car-form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .menu-admin-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-admin-form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .menu-admin-form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .menu-admin-submit-button {
+    background-color: #d74849;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-admin-submit-button:hover {
+    background-color: #c13e3f;
+  }
+  
+  .menu-admin-car-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-admin-car-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .menu-admin-container {
+      width: 95%;
+    }
+  
+    .menu-admin-title {
+      font-size: 28px;
+    }
+  
+    .menu-admin-section-title {
+      font-size: 20px;
+    }
+  }

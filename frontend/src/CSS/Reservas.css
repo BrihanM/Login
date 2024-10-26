@@ -1,0 +1,100 @@
+.reservas-page {
+    --primary-color: #ef2b28;
+    --secondary-color: #b30000;
+    --card-background: #ffffff;
+  }
+  
+  .reservas-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .reservas-page .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 250px;
+  }
+  
+  .reservas-page .h1-tittle {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .reservas-page .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .reservas-page #reservas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: var(--card-background);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservas-page #reservas-table th,
+  .reservas-page #reservas-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reservas-page #reservas-table th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .reservas-page #reservas-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .reservas-page #reservas-table tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .reservas-page .edit-btn,
+  .reservas-page .cancel-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .reservas-page .edit-btn {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .reservas-page .cancel-btn {
+    background-color: #777;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .reservas-page .edit-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .reservas-page .cancel-btn:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .reservas-page .container {
+      padding: 10px;
+    }
+  
+    .reservas-page #reservas-table {
+      font-size: 14px;
+    }
+  
+    .reservas-page #reservas-table th,
+    .reservas-page #reservas-table td {
+      padding: 8px;
+    }
+  }

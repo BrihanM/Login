@@ -1,0 +1,71 @@
+.usersAdminPage {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff00;
+    margin-left: 550px;
+  }
+  
+  .usersAdminContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .usersAdminTitle {
+    font-size: 32px;
+    color: #030222;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .usersAdminNav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .usersAdminNavLink {
+    color: #d74849;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .usersAdminNavLink:hover {
+    text-decoration: underline;
+  }
+  
+  .usersAdminTable {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .usersAdminTableHeader {
+    background-color: #d74849;
+    color: white;
+  }
+  
+  .usersAdminTableHeader th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .usersAdminTableBody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .usersAdminTableBody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .usersAdminTableBody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .usersAdminTableBody tr:hover {
+    background-color: #f0f0f0;
+  }
